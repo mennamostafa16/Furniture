@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff;
+    font-family: Tajawal;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.264),rgba(0, 0, 0, 0.264)) ,
+    url(../images/living\ room.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav , .footer-nav , .social-nav{
+    display: flex;
+    list-style: none;
+}
+.main-nav li , .footer-nav li , .social-nav li {
+    margin: 0 20px;
+}
+.main-nav li a:link , .main-nav li a:visited ,
+.footer-nav li a:link , .footer-nav li a:visited 
+,.social-nav li a:link , .social-nav li a:visited 
+{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-nav li a:hover , .main-nav li a:active,
+.footer-nav li a:hover , .footer-nav li a:active,
+.social-nav li a:hover , .social-nav li a:active
+{
+    color: rgb(4,51, 24);
+}
+.a-box{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+}
+h1{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.mmm{
+    color:black;
+    font-size:25px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid seagreen;
+}
+.mmm:hover{
+    color: #ffffff;
+    background-color: rgb(4, 51 , 24);
+}
+section{
+    padding: 40px 0;
+}
+h2{
+    font-size: 1.5rem;
+   font-weight: 500;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+hr{
+    width: 100px;
+    margin: 20px auto;
+    border: 3px solid rgb(4, 51 , 24);
+}
+.feat-desc{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150%;
+}
+.box{
+    text-align: center;
+}
+.box i{
+    color: seagreen;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.box h3{
+    margin-bottom: 10px;
+}
+.box p{
+    margin-bottom: 10px;
+}
+.product{
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.826);
+    overflow: hidden;
+}
+.product img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: -5px;
+    opacity: .6;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.product img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.branch img{
+    width: 300px;
+    height: 300px;
+    margin-top: 7px;
+}
+.branch h3, .branch p{
+    margin-bottom: 7px;
+}
+.branch i{
+    color:  seagreen;
+}
+.testimonials{
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.264),rgba(0, 0, 0, 0.264)) ,
+    url(../images/Bedroom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonials i{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.testimonials p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.testimonials img{
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+label{
+    color: seagreen;
+    margin-bottom: 10px;
+}
+input[type=text],input[type=email],select,textarea{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=checkbox]{
+    margin-bottom: 10px;
+}
+button{
+    border: 2px solid rgb(9, 46, 25);
+    background-color:seagreen ;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+footer{
+    padding: 40px 0;
+    background-color: #9ED6AD;
+}
